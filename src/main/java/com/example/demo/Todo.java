@@ -18,7 +18,7 @@ public class Todo {
     @NotNull
     @Size(min=4)
     private String taskname;
-    @DateTimeFormat(pattern="yyyy/MM/dd")
+    @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date duedate;
     @NotNull
     @Size(min=8)
